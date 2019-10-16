@@ -1,8 +1,8 @@
 #include <iostream>
 
-void PrintArray(int arr[], int arrSize) {
-    for (int i = 0; i < arrSize; i++) {
-        std::cout << arr[i] << " ";
+void PrintArray(int array[], int arraySize) {
+    for (int i = 0; i < arraySize; i++) {
+        std::cout << array[i] << " ";
     }
     std::cout << std::endl;
 }

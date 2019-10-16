@@ -1,6 +1,6 @@
 
-#include "SelectionSort.h"
 #include "Usefull.h"
+#include "SelectionSort.h"
 
 void SelectionSort(int array[], int arraySize) {
     // Loop from begin until the end 
