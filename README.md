@@ -6,9 +6,18 @@ A sorting algorithm is used to organize a given array or list of elements that n
 
 * Selection Sort
 * Buble Sort
+* Inserction Sort
 * Merge Sort
 * Quick Sort
 * Heap Sort
+
+## Time Complexity
+ 
+Algorithm | Best Case | Worst Case | Extra Space 
+----------|-----------|------------|------------
+Selection Sort | O(n²) | O(n²) | O(1)
+Bubble Sort | O(n) | O(n²) | O(1)
+Inserction Sort | O(n*2) | O(1)
 
 ## Selection Sort
 
@@ -23,10 +32,7 @@ These steps are repeated until the end of the array to be achieved and all value
 
 The buble sort algorithm works by repeateddly swapping the adjacents elements if they are in wrong order.
 
-## Time Complexity
- 
-Algorithm | Best Case | Worst Case | Extra Space 
-----------|-----------|------------|------------
-Selection Sort | O(n²) | O(n²) | O(1)
-Bubble Sort | O(n) | O(n²) | O(1)
+## Insertion Sort
+
+Sorting by selection works like cards in your hand when you are trying to organize them.
 
