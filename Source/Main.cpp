@@ -1,6 +1,16 @@
 #include <iostream>
 
+#include "Usefull.h"
+#include "SelectionSort.h"
+
+
 int main() {
-    std::cout <<  "My C++ standard version is: " << __cplusplus << '\n';
+    
+    int arr[] = {6, 5, 8, 3, 2, 1, 4, 7};
+    
+    PrintArray(arr, 8);
+    SelectionSort(arr, 8);
+    PrintArray(arr, 8);
+
     return EXIT_SUCCESS;
 }

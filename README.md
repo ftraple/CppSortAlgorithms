@@ -1,41 +1,20 @@
-# C++ Project Template
+# Sorting Algorithms
 
-This template is used to start any type of project in C++ with gcc compiler.
+A sorting algorithm is used to organize a given array or list of elements that need to be ordered.
 
-## How To Add a Link
+## Index
 
-This is a example of how to add a link.
+* Selection Sort
+* Buble Sort
+* Merge Sort
+* Quick Sort
+* Heap Sort
 
-[GitHub Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+## Selection Sort
 
-## How To Show Image 
+The selection sort is the most simple sort algorithm. It consisted of two nested loops.
 
-This is an example of how to show an image.
+1) The first loop goes from the begin until the end, and call the second loop.
+2) The second loop finds the next smaller value in the unsorted part of the array.
 
-![RGB Image](Resource/Image/RGBImage.jpg)
-
-## How To Add a Video Link
-
-This is an example of how to add a video link.
-
-[![DEMO](https://img.youtube.com/someimage/0.jpg)](https://www.youtube.com/watch?v=45HbI9u2bQw)
-
-## How To Show Line Commands
-
-This is an example of how to show line commands in bash.
-
-```bash
-make clean
-make
-./Bin/Test
-```
-## How To Show a Block Of Code
-
-This is an example of how to show a block of code.
-
-```c++
-function main() {
-  std::cout << "This is a message." << std::endl;
-  return EXIT_SUCCESS;
-}
-```
+These steps are repeated until the end of the array to be achieved and all values are sorted.
