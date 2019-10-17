@@ -17,7 +17,8 @@ Algorithm | Best Case | Worst Case | Extra Space
 ----------|-----------|------------|------------
 Selection Sort | O(n²) | O(n²) | O(1)
 Bubble Sort | O(n) | O(n²) | O(1)
-Inserction Sort | O(n*2) | O(1)
+Inserction Sort | O(n) | O(n*2) | O(1)
+Merge Sort | O(nLogn) | O(nLogn) | O(n) + Recursive Space in the Heap
 
 ## Selection Sort
 
@@ -35,4 +36,8 @@ The buble sort algorithm works by repeateddly swapping the adjacents elements if
 ## Insertion Sort
 
 Sorting by selection works like cards in your hand when you are trying to organize them.
+
+## Merge Sort
+
+Merge sort is a dived and conquer algorithm, It devides input array in two halves, calls itself for the two halves and merges the two sorted halves.
 

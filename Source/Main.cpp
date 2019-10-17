@@ -4,6 +4,7 @@
 #include "SelectionSort.h"
 #include "BubbleSort.h"
 #include "InsertionSort.h"
+#include "MergeSort.h"
 
 int main() {
     
@@ -24,6 +25,12 @@ int main() {
     PrintArray(array3, 8);
     InsertionSort(array3, 8);
     PrintArray(array3, 8);
+
+    std::cout << "Merge Sort" << std::endl;
+    int array4[] = {6, 5, 8, 3, 2, 1, 4, 7};
+    PrintArray(array4, 8);
+    MergeSort(array4, 8);
+    PrintArray(array4, 8);
 
     return EXIT_SUCCESS;
 }
