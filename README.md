@@ -20,6 +20,7 @@ Bubble Sort | O(n) | O(n²) | O(1)
 Inserction Sort | O(n) | O(n*2) | O(1)
 Merge Sort | O(nLogn) | O(nLogn) | O(n) + Recursive calls on the Heap
 Quick Sort | O(nLogn) | O(n²) | O(1) + Recursive calls on the Heap
+Heap Sort | O(nLogn) | O(nLogn) | O(1)
 
 ## Selection Sort
 
@@ -49,4 +50,8 @@ The quick sort algorithm is a "divide and conquer algorithm".
 1) First, you need to choose a element as "pivot", could be any element in the array.
 2) Second, you need find the right position for the pivot, separating the smaller elements to the left and the larger elements to the right.
 3) Third, you need to perform this process recursivily until all the elements are in their respective positions.
+
+## Heap Sort
+
+Heap sort is a comparison based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the maximum element and place the maximum element at the end. We repeat the same process for remaining element.
 

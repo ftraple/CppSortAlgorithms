@@ -6,6 +6,7 @@
 #include "InsertionSort.h"
 #include "MergeSort.h"
 #include "QuickSort.h"
+#include "HeapSort.h"
 
 int main() {
     
@@ -38,6 +39,12 @@ int main() {
     PrintArray(array5, 8);
     QuickSort(array5, 0, 7);
     PrintArray(array5, 8);
+
+    std::cout << "Heap Sort" << std::endl;
+    int array6[] = {6, 5, 8, 3, 2, 1, 4, 7};
+    PrintArray(array6, 8);
+    HeapSort(array6, 8);
+    PrintArray(array6, 8);
 
     return EXIT_SUCCESS;
 }
