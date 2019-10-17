@@ -5,6 +5,7 @@
 #include "BubbleSort.h"
 #include "InsertionSort.h"
 #include "MergeSort.h"
+#include "QuickSort.h"
 
 int main() {
     
@@ -31,6 +32,12 @@ int main() {
     PrintArray(array4, 8);
     MergeSort(array4, 8);
     PrintArray(array4, 8);
+
+    std::cout << "Quick Sort" << std::endl;
+    int array5[] = {6, 5, 8, 3, 2, 1, 4, 7};
+    PrintArray(array5, 8);
+    QuickSort(array5, 0, 7);
+    PrintArray(array5, 8);
 
     return EXIT_SUCCESS;
 }
